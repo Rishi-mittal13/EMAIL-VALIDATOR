@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@500&family=Poppins:ital,wght@0,500;1,600&display=swap');
+
+* {
+    font-family: 'Bitter', serif;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.logo{
+    margin-left: 10px;
+    font-size: 18px;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #46494C;
+    padding: 18px 12px;
+}
+a{
+    text-decoration: none;
+    color: aliceblue;
+
+}
+
+ul{
+    display: flex ;
+}
+ul  li {
+    list-style: none;
+    padding: 0 12px;
+    font-size: 16px;
+}
+
+ul> li> a:hover {
+    color: rgb(186, 202, 207);
+}
+main{
+    min-height: 85vh;
+}
+
+footer{
+    background-color: #46494C;
+    padding: 13px;
+    display: flex;
+    justify-content: center;
+    color: aliceblue;
+}
+
+main div {
+    margin-left: 30px;
+    padding: 12px;
+}
+main div h1 {
+    padding: 12px;
+}
+main div input{
+    margin:14px auto;
+    padding: 3px;
+    border-radius: 3px;
+    border: solid black 2px;
+    width: 250px;
+}
+#resulcon{
+    padding: 0px;
+    margin: 0;
+}
+#btn{
+    padding: 3px;
+    margin: 1px auto ;
+    border-radius: 3px;
+    background-color: black;
+    color: white;
+}
+#btn:hover{
+    background-color:aliceblue;
+    color: black;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 460px) {
+   nav{
+    flex-direction: column;
+   }
+   .logo{
+    padding: 10px;
+   }
+    
+  }
